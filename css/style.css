@@ -320,9 +320,10 @@ a.active {
 ==================================================*/
 
 #home {
-		background-image: url(portfolio/img/back.png);
+		background-image: url(../img/portfolio/back.png);
 		background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
 		height: 100vh;
 		
 }
