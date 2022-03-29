@@ -274,6 +274,7 @@ nav ul {
     padding-left: 0;
     list-style: none;
     padding: 20px;
+    padding-right: 60px;
     margin-bottom: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -299,6 +300,7 @@ nav li a {
 
 .bg-nav ul {
     padding: 10px;
+    padding-right: 50px;
 }
 
 a:focus {
@@ -1102,4 +1104,4 @@ fieldset {
 padding-top:10px;}
 .clear{clear:both;}
 .portfolio_item{height:230px;}
-.portfolio_bg{background:url(../img/portfolio/01.jpg);}
+.portfolio_bg{background:url("portfolio/img/back.png";)}
