@@ -46,6 +46,16 @@ h1 {
     
 }
 
+h01 {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    
+}
+
 p.door{
     text-align: center;
     padding-top: 40px;
@@ -55,11 +65,13 @@ h2{
     letter-spacing: 7px;
     text-align: center;
     color: #4d4d4d;
+    
 }
 
 .big{
 font-size: 25px;
 line-height: 40px;
+font-family : 'NOTO SANS';
 }
 
 h1:nth-child(2){
@@ -188,7 +200,8 @@ body {
         height: 60px;
         width: 60px;
         margin-top: -30px;
-        margin-left: -30px
+        text-align: center;
+
     }
     .preloader:before {
         left: -2px;
@@ -271,10 +284,11 @@ header {
 
 nav ul {
     display: inline-block;
-    padding-left: 0;
     list-style: none;
     padding: 20px;
-    padding-right: 60px;
+    padding-right: 80px;
+    margin : 0 auto;
+    text-align: center;
     margin-bottom: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -282,7 +296,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 10px;
+    margin: 15px;
 }
 
 nav li a {
@@ -299,8 +313,7 @@ nav li a {
 }
 
 .bg-nav ul {
-    padding: 10px;
-    padding-right: 0px;
+
 }
 
 a:focus {
@@ -322,7 +335,7 @@ a.active {
 ==================================================*/
 
 #home {
-		background-image: url(../img/portfolio/back.png);
+		background-color: #afa9bf;
 		background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -333,11 +346,13 @@ a.active {
 	
 
 	#home .container h2{
-		width:px;
-		
+		width:p0x;
+        font-family: 'Playfair Display', serif;
 		font-size:36px;
-		color:#4d4d4d;
+		color:#3a3138;
 		margin:50px 0 0 0px;
+        font-weight: bold;
+
 
 	}
 
@@ -374,16 +389,6 @@ a.active {
 		transform:translate(50%, -50%);
 		
 	}
-	.dia{
-		width:300px;
-		margin:230px 0 0 200px;
-		
-		
-	}
-	.dia img{
-		width:100%;
-		display:block;
-	}
 	.box h4{
 		font-size:20px;
 		margin-top:50px;
@@ -418,10 +423,13 @@ a.active {
 	}
 	.container h2{
 		text-align:center;
-		font-size:90px;
-		color:#afa9bf;
-		font-family: 'Lato', sans-serif;
+		font-size:30px;
+        color: #4d4d4d;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
 	}
+
+
     
 	.box h4{
 		font-size:18px;
