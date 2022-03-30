@@ -47,15 +47,7 @@ h1 {
     
 }
 
-h01 {
-    font-family: 'Playfair Display', serif;
-    font-size: 72px;
-    line-height: 70px;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    
-}
+
 
 p.door{
     text-align: center;
@@ -287,7 +279,7 @@ nav ul {
     display: inline-block;
     list-style: none;
     padding: 20px;
-    padding-right: 80px;
+    padding-right: 0px;
     margin : 0 auto;
     text-align: center;
     margin-bottom: 0;
@@ -1042,7 +1034,7 @@ fieldset {
 @media (max-width: 500px) {
     h1 {
         font-family: 'Playfair Display', serif;
-        font-size: 50px;
+        font-size: 70px;
         line-height: 50px;
     }
     #home,
@@ -1058,13 +1050,15 @@ fieldset {
     }
 	.disply-table h1{
 		color:#fff;
-		margin-top:50px;
+		margin-top:80px;
 	}
 	.container h2{
-		text-align:right;
-		font-size:60px;
-		color:#5c153e;
-		font-family: 'Lato', sans-serif;
+        padding-top: 30px;
+		text-align:center;
+		font-size:50px;
+        color: #4d4d4d;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
 	}
 
 	.box h4{
@@ -1107,7 +1101,8 @@ fieldset {
 	border:1px solid #592c5e6e;
 	border-radius:30px;
 	color:#333135;
-   	margin-bottom: 10px;}
+    margin-bottom: 10px;
+}
 .project_btn:hover{color:#fff;
 	background:#592c5e6e;}
 .project_btn_box{text-align:left;
