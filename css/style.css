@@ -279,7 +279,6 @@ nav ul {
     display: inline-block;
     list-style: none;
     padding: 20px;
-    padding-right: 0px;
     margin : 0 auto;
     text-align: center;
     margin-bottom: 0;
@@ -361,7 +360,7 @@ a.active {
 		display: table-cell;
 		vertical-align: top;
 		padding-top:100px;
-        padding-left: 260px;
+        padding-left: 289px;
 		
 	}
 	.table-cell h1{
