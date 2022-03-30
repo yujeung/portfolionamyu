@@ -1026,6 +1026,7 @@ fieldset {
     .timeline-event-copy {
         width: 100%;
         left: 2em;
+        padding: 2em;
     }
 	
 }
