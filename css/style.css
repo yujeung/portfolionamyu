@@ -479,7 +479,7 @@ a.active {
 .h{
 	font-size:16px;
 	font-weight:600;
-	padding-top:20px;
+	padding-top:30px;
     padding-bottom: 40px;
     letter-spacing: 1px;
 }
@@ -1106,7 +1106,8 @@ fieldset {
 	padding:5px 20px;
 	border:1px solid #592c5e6e;
 	border-radius:30px;
-	color:#333135;}
+	color:#333135;
+   	margin-bottom: 10px;}
 .project_btn:hover{color:#fff;
 	background:#592c5e6e;}
 .project_btn_box{text-align:left;
