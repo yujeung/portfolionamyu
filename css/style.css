@@ -1025,7 +1025,7 @@ fieldset {
 
 @media (max-width: 768px) {
     .timeline-event-copy {
-        width: 90%;
+        width: 100%;
         left: 2em;
     }
 	
