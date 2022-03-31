@@ -95,6 +95,12 @@ h4 {
     font-weight: 700;
 }
 
+h3{
+    margin-top: 0px;
+    
+    
+}
+
 h4:before {
     position: absolute;
     width: 30px;
